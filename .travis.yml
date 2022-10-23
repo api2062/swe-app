@@ -3,6 +3,8 @@ python:
   - "3.7.1"
 # command to install dependencies
 install:
+  - pip install --upgrade setuptools
+  - pip install --upgrade importlib-metadata
   - pip install -r requirements.txt
 
 before_script:
