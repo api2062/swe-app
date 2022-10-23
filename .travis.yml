@@ -4,7 +4,7 @@ python:
 # command to install dependencies
 install:
   - pip install --upgrade setuptools
-  - pip install --upgrade importlib-metadata
+  - pip install importlib-metadata < 5.0.0
   - pip install -r requirements.txt
 
 before_script:
