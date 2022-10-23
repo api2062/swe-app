@@ -24,7 +24,4 @@ deploy:
   env: "django-env4"
   bucket_name: "elasticbeanstalk-us-east-1-419601274220"
   on:
-    repo: api2062/swe-app
-    branches:    
-      only:
-        - main
+    branches: main
