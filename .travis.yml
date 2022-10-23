@@ -22,8 +22,7 @@ deploy:
   region: "us-east-1"
   app: "mysite1"
   env: "django-env4"
-  s3: AWS::S3.new
-  bucket: s3.buckets['elasticbeanstalk-us-east-1-419601274220']
+  bucket_name: "elasticbeanstalk-us-east-1-419601274220"
   on:
     branches: master
 
