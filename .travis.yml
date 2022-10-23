@@ -22,7 +22,7 @@ deploy:
   region: "us-east-1"
   app: "mysite1"
   env: "django-env4"
-  bucket_name: "elasticbeanstalk-us-east-1-419601274220/mysite1"
+  bucket_name: "elasticbeanstalk-us-east-1-419601274220"
   on:
     branches: master
 
